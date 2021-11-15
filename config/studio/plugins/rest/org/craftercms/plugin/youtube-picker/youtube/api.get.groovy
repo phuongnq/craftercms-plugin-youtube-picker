@@ -19,7 +19,7 @@ if (StringUtils.isEmpty(keyword)) {
 def siteService = applicationContext["cstudioSiteServiceSimple"]
 println siteService
 def textEncryptor = applicationContext["crafter.textEncryptor"]
-def config = siteService.getConfiguration(site, "site-config.xml", false);
+def config = siteService.getConfiguration(site, "site-config.xml");
 
 if (config.youtubePicker != null && config.youtubePicker.apiKey != null) {
    def apiKeyEncrypt = config.youtubePicker.apiKey.trim()

@@ -935,7 +935,7 @@
 						</property>
 						<property>
 							<name>useSearch</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 					</properties>

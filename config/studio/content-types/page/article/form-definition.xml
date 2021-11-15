@@ -54,6 +54,11 @@
 							<value></value>
 							<type>boolean</type>
 						</property>
+						<property>
+							<name>allowEditWithoutWarning</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
 					</properties>
 					<constraints>
 					</constraints>

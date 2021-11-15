@@ -242,7 +242,7 @@
 					<help></help>
 					<plugin>
 						<pluginId>org.craftercms.plugin.youtube-picker.youtube</pluginId>
-						<type>js/org/craftercms/plugin/youtube-picker/control</type>
+						<type>control</type>
 						<name>youtube</name>
 						<filename>main.js</filename>
 					</plugin>

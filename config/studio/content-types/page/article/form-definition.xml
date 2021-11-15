@@ -894,5 +894,23 @@
 						</property>
 					</properties>
 				</datasource>
+				<datasource>
+					<type>video-browse-repo</type>
+					<id>existingVideos</id>
+					<title>Existing Videos</title>
+					<interface>video</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/videos</value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
 	</datasources>
 </form>

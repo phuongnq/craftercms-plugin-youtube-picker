@@ -31,8 +31,8 @@
 	<date_dt>2020-06-14T00:00:00.000Z</date_dt>
 	<createdDate>2017-3-2T20:41:3.000Z</createdDate>
 	<createdDate_dt>2017-3-2T20:41:3.000Z</createdDate_dt>
-	<lastModifiedDate>2021-11-15T04:53:31.459Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-11-15T04:53:31.459Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-11-15T06:30:47.255Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-15T06:30:47.255Z</lastModifiedDate_dt>
 	<featured_b>false</featured_b>
 	<summary_t>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean rhoncus, nulla ut mattis tempor, lorem arcu malesuada purus, sit amet pretium diam ligula at ante. Suspendisse potenti.</summary_t>
 	<image_s>/static-assets/images/coffee-pic.jpg</image_s>
@@ -41,7 +41,7 @@
 	<left_rail_o item-list="true"/>
 	<video_s>/static-assets/videos/file_example_WEBM_1920_3_7MB.webm</video_s>
 	<date_dt_tz>UTC</date_dt_tz>
-	<vidoes_o item-list="true">	<item>	<video_s>/static-assets/videos/file_example_MP4_1920_18MG.mp4</video_s>
+	<vidoes_o item-list="true">	<item>	<video_s>/static-assets/videos/file_example_MOV_1920_2_2MB.mov</video_s>
 	</item>	<item>	<video_s/>
 	</item></vidoes_o>
 </page>

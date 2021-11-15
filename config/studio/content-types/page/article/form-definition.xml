@@ -584,6 +584,34 @@
 					</constraints>
 				</field>
 				<field>
+					<type>video-picker</type>
+					<id>video_s</id>
+					<iceId></iceId>
+					<title>Video</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>videoManager</name>
+							<value>uploadVideos,existingVideos</value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>image-picker</type>
 					<id>image_s</id>
 					<iceId></iceId>
@@ -706,34 +734,6 @@
 						<constraint>
 							<name>required</name>
 							<value><![CDATA[true]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>video-picker</type>
-					<id>video_s</id>
-					<iceId></iceId>
-					<title>Video</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>videoManager</name>
-							<value></value>
-							<type>datasource:video</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>

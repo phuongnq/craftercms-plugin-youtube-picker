@@ -18,7 +18,7 @@ if (StringUtils.isEmpty(keyword)) {
 
 def configurationService = applicationContext["configurationService"]
 def textEncryptor = applicationContext["crafter.textEncryptor"]
-def config = configurationService.legacyGetConfiguration(site, "site-config.xml");
+def config = configurationService.legacyGetConfiguration(site, "site-config.xml")
 
 if (config.youtubePicker != null && config.youtubePicker.apiKey != null) {
    def apiKeyEncrypt = config.youtubePicker.apiKey.trim()

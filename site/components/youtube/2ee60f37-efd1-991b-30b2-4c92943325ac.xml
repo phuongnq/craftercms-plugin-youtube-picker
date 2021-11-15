@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/plugins/org/craftercms/plugin/youtube-picker/youtube</content-type>
+	<display-template>/templates/plugins/org/craftercms/plugin/youtube-picker/youtube.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2ee6</objectGroupId>
+	<objectId>2ee60f37-efd1-991b-30b2-4c92943325ac</objectId>
+	<file-name>2ee60f37-efd1-991b-30b2-4c92943325ac.xml</file-name>
+	<folder-name/>
+	<internal-name>test</internal-name>
+	<width_s>100%</width_s>
+	<height_s>300px</height_s>
+	<youtubeID_s>ByH9LuSILxU</youtubeID_s>
+	<title_s>Baby Cats - Cute and Funny Cat Videos Compilation #34 | Aww Animals</title_s>
+	<posterImage_s>https://i.ytimg.com/vi/ByH9LuSILxU/hqdefault.jpg</posterImage_s>
+	<localeCode>en</localeCode>
+	<description_t>Baby cats are amazing creature because they are the cutest and most funny. Watching funny baby cats is the hardest try not to laugh challenge. This is the cutest ...</description_t>
+	<createdDate>2021-11-15T09:54:55.851Z</createdDate>
+	<createdDate_dt>2021-11-15T09:54:55.851Z</createdDate_dt>
+	<lastModifiedDate>2021-11-15T09:54:55.851Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-15T09:54:55.851Z</lastModifiedDate_dt>
+</component>

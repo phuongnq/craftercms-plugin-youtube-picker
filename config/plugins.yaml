@@ -1,15 +1,2 @@
 version: "1.0"
-plugins:
-- id: "org.craftercms.plugin.youtube"
-  version:
-    major: 1
-    minor: 0
-    patch: 4
-  type: "site"
-  pluginUrl: "https://github.com/craftercms/youtube-plugin"
-  installationDate: "2021-11-15T06:40:34.258131Z"
-  files:
-  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/youtube/youtube/controller.groovy"
-  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/youtube/youtube/config.xml"
-  - path: "config/studio/content-types/component/plugins/org/craftercms/plugin/youtube/youtube/form-definition.xml"
-  - path: "templates/plugins/org/craftercms/plugin/youtube/youtube.ftl"
+plugins: []

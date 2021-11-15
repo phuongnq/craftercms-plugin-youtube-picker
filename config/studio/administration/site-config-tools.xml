@@ -55,16 +55,16 @@
             </icon>
          </repeatSection>
          <controls>
-             <control>
-                <plugin>
-                        <type>js/org/craftercms/plugin/youtube-picker/control</type>
-                        <name>youtube</name>
-                        <filename>main.js</filename>
-                    </plugin>
-                    <icon>
-                        <class>fa-youtube</class>
-                    </icon>
-                </control>
+            <control>
+               <plugin>
+                  <type>js/org/craftercms/plugin/youtube-picker/control</type>
+                  <name>youtube</name>
+                  <filename>main.js</filename>
+               </plugin>
+               <icon>
+                  <class>fa-youtube</class>
+               </icon>
+            </control>
             <control>
                <name>input</name>
                <icon>
@@ -179,17 +179,6 @@
                <name>locale-selector</name>
                <icon>
                   <class>fa-globe</class>
-               </icon>
-            </control>
-            <control autoWiredFrom="org.craftercms.plugin.youtube">
-               <plugin>
-                  <pluginId>org.craftercms.plugin.youtube</pluginId>
-                  <type>control</type>
-                  <name>youtube</name>
-                  <filename>main.js</filename>
-               </plugin>
-               <icon>
-                  <class>fa-youtube</class>
                </icon>
             </control>
             <control autoWiredFrom="org.craftercms.plugin.youtube-picker">

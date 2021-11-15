@@ -23,6 +23,8 @@ def config = siteService.getConfiguration(site, "site-config.xml", false);
 if (config.youtubePicker != null && config.youtubePicker.apiKey != null) {
    def apiKeyEncrypt = config.youtubePicker.apiKey.trim()
    def apiKey = textEncryptor.decrypt(apiKeyEncrypt)
+   
+   println apiKey
 
    def searchUrl = 'https://youtube.googleapis.com/youtube/v3/search?part=snippet&type=video&q=' + keyword + '&key=' + apiKey
    def get = new URL(searchUrl).openConnection()

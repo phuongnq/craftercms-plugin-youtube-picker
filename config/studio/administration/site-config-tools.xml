@@ -182,6 +182,17 @@
                   <class>fa-youtube</class>
                </icon>
             </control>
+            <control autoWiredFrom="org.craftercms.plugin.youtube-picker">
+               <plugin>
+                  <pluginId>org.craftercms.plugin.youtube-picker</pluginId>
+                  <type>control</type>
+                  <name>youtube</name>
+                  <filename>main.js</filename>
+               </plugin>
+               <icon>
+                  <class>fa-youtube</class>
+               </icon>
+            </control>
          </controls>
          <datasources>
             <datasource>

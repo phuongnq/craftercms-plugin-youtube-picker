@@ -241,7 +241,7 @@
 					<defaultValue></defaultValue>
 					<help></help>
 					<plugin>
-						<pluginId>org.craftercms.plugin.youtube-picker.youtube</pluginId>
+						<pluginId>org.craftercms.plugin.youtube-picker</pluginId>
 						<type>control</type>
 						<name>youtube</name>
 						<filename>main.js</filename>

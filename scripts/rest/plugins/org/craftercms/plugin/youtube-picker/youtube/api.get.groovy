@@ -1,5 +1,7 @@
 import org.apache.commons.lang3.StringUtils
 
+println "aaaaa"
+
 def result = [:]
 
 def site = request.getParameter("siteId")

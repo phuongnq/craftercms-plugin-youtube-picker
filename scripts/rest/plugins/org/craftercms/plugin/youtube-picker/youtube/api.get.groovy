@@ -16,6 +16,8 @@ if (StringUtils.isEmpty(keyword)) {
    return result
 }
 
+println "this is a test"
+
 def siteService = applicationContext["cstudioSiteServiceSimple"]
 def textEncryptor = applicationContext["crafter.textEncryptor"]
 def config = siteService.getConfiguration(site, "site-config.xml", false);

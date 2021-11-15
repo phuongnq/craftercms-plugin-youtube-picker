@@ -243,4 +243,7 @@
             </paths>
         </monitor>
     </contentMonitoring>
+    <youtubePicker>
+        <apiKey>CCE-V1#Ja6cd/tTqQS0yeacpAvlif8JdttLLxCG7MRJl5IEG5Ck0jFRjc5drXWNbyMaMb50acClSVlNL+d0wZeBvLItiw==</apiKey>
+    </youtubePicker>
 </site-config>

@@ -2,6 +2,8 @@ import org.apache.commons.lang3.StringUtils
 
 def result = [:]
 
+return "abc"
+
 def site = request.getParameter("siteId")
 if (StringUtils.isEmpty(site)) {
    result.code = 400;

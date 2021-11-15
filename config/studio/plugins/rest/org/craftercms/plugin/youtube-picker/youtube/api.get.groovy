@@ -17,6 +17,7 @@ if (StringUtils.isEmpty(keyword)) {
 }
 
 def siteService = applicationContext["cstudioSiteServiceSimple"]
+println siteService
 def textEncryptor = applicationContext["crafter.textEncryptor"]
 def config = siteService.getConfiguration(site, "site-config.xml", false);
 

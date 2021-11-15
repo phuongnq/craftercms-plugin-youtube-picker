@@ -1134,6 +1134,9 @@
       render: function render(config, containerEl) {
         containerEl.id = this.id;
         console.log(this);
+        console.log(config);
+        console.log(containerEl);
+        console.log(arguments);
         var siteId = CStudioAuthoringContext.site;
         ReactDOM.render(React.createElement(MyPicker, {
           siteId: siteId

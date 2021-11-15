@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/plugins/org/craftercms/plugin/youtube-picker/youtube</content-type>
+	<display-template>/templates/plugins/org/craftercms/plugin/youtube-picker/youtube.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>e359</objectGroupId>
+	<objectId>e35927f7-0f2d-bf57-85ba-e332879a9494</objectId>
+	<file-name>e35927f7-0f2d-bf57-85ba-e332879a9494.xml</file-name>
+	<folder-name/>
+	<internal-name>youtube01</internal-name>
+	<width_s>100%</width_s>
+	<height_s>300px</height_s>
+	<youtubeID_s>DXUAyRRkI6k</youtubeID_s>
+	<title_s>Funny Cats and Kittens Meowing Compilation</title_s>
+	<posterImage_s>https://i.ytimg.com/vi/DXUAyRRkI6k/hqdefault.jpg</posterImage_s>
+	<localeCode>en</localeCode>
+	<description_t>Here is a video of cats and kittens meowing to confuse your pets Puppies &amp; Babies &amp; Kitties OH MY! New videos all the time! Subscribe: ...</description_t>
+	<createdDate>2021-11-15T10:03:23.145Z</createdDate>
+	<createdDate_dt>2021-11-15T10:03:23.145Z</createdDate_dt>
+	<lastModifiedDate>2021-11-15T10:03:23.145Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-15T10:03:23.145Z</lastModifiedDate_dt>
+</component>

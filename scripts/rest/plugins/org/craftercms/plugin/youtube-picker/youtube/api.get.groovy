@@ -1,7 +1,5 @@
 import org.apache.commons.lang3.StringUtils
 
-println "aaaaa"
-
 def result = [:]
 
 def site = request.getParameter("siteId")
@@ -18,8 +16,6 @@ if (StringUtils.isEmpty(keyword)) {
    return result
 }
 
-println "this is a test"
-
 def siteService = applicationContext["cstudioSiteServiceSimple"]
 def textEncryptor = applicationContext["crafter.textEncryptor"]
 def config = siteService.getConfiguration(site, "site-config.xml", false);
@@ -27,8 +23,6 @@ def config = siteService.getConfiguration(site, "site-config.xml", false);
 if (config.youtubePicker != null && config.youtubePicker.apiKey != null) {
    def apiKeyEncrypt = config.youtubePicker.apiKey.trim()
    def apiKey = textEncryptor.decrypt(apiKeyEncrypt)
-   
-   println apiKey
 
    def searchUrl = 'https://youtube.googleapis.com/youtube/v3/search?part=snippet&type=video&q=' + keyword + '&key=' + apiKey
    def get = new URL(searchUrl).openConnection()

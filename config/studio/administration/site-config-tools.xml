@@ -55,6 +55,16 @@
             </icon>
          </repeatSection>
          <controls>
+             <control>
+                <plugin>
+                        <type>youtube-picker/control</type>
+                        <name>youtube</name>
+                        <filename>main.js</filename>
+                    </plugin>
+                    <icon>
+                        <class>fa-youtube</class>
+                    </icon>
+                </control>
             <control>
                <name>input</name>
                <icon>

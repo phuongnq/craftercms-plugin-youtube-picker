@@ -283,6 +283,29 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>youtube</type>
+					<id>youTubePicker</id>
+					<iceId></iceId>
+					<title>YouTube Picker</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<plugin>
+						<type>js/org/craftercms/plugin/youtube-picker/control</type>
+						<name>youtube</name>
+						<filename>main.js</filename>
+					</plugin>
+					<properties>
+						<property>
+							<name>googleapi_key</name>
+							<value>AIzaSyBAQK6l_uH5cYPSMRrU9kZUP0cfJjKc3Cs</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 		<section>

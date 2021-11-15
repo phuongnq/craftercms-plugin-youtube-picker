@@ -2,7 +2,7 @@
 	<title>YouTube</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/plugins/org/craftercms/plugin/youtube/youtube</content-type>
+	<content-type>component/plugins/org/craftercms/plugin/youtube/youtube</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>

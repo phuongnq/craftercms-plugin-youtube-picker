@@ -832,7 +832,7 @@
     // as the regeneratorRuntime namespace. Otherwise create a new empty
     // object. Either way, the resulting object will be used to initialize
     // the regeneratorRuntime variable at the top of this file.
-    module.exports 
+    module.exports
   ));
 
   try {
@@ -1133,6 +1133,7 @@
       },
       render: function render(config, containerEl) {
         containerEl.id = this.id;
+        console.log(this.readOnly);
         var siteId = CStudioAuthoringContext.site;
         ReactDOM.render(React.createElement(MyPicker, {
           siteId: siteId

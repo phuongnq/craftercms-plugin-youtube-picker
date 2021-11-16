@@ -4,14 +4,14 @@ def result = [:]
 
 def site = request.getParameter("siteId")
 if (StringUtils.isEmpty(site)) {
-   result.code = 400;
+   result.code = 400
    result.message = "Invalid siteId"
    return result
 }
 
 def keyword = request.getParameter("keyword")
 if (StringUtils.isEmpty(keyword)) {
-   result.code = 400;
+   result.code = 400
    result.message = "Invalid keyword"
    return result
 }

@@ -832,7 +832,7 @@
     // as the regeneratorRuntime namespace. Otherwise create a new empty
     // object. Either way, the resulting object will be used to initialize
     // the regeneratorRuntime variable at the top of this file.
-    module.exports 
+    module.exports
   ));
 
   try {
@@ -1137,6 +1137,7 @@
                   } else {
                     setNoApiKey(true);
                     $(youtubeInputElmId).change(function () {
+                      console.log('change function call');
                       var value = $(this).val();
                       var videoId = youtubeParser(value);
 

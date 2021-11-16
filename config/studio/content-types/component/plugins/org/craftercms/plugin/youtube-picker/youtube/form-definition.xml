@@ -272,7 +272,7 @@
 					<properties>
 						<property>
 							<name>text</name>
-							<value>Fields in this section will be automatically updated based on the selected  video.</value>
+							<value>Fields in this section will be automatically updated based on the selected  video. (A Goolde API key is needed.)</value>
 							<type>string</type>
 						</property>
 						<property>
